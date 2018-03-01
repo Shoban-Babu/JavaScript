@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User should able to register while provide valid email and account details",
+    "uid" : "a99af9459654cb4d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515451679248,
+      "stop" : 1515451760282,
+      "duration" : 81034
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

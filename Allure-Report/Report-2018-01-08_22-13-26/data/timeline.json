@@ -1,0 +1,17 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User should able to register while provide valid email and account details",
+    "uid" : "2e20cb431246c47d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515449579690,
+      "stop" : 1515449605925,
+      "duration" : 26235
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

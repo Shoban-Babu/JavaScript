@@ -1,0 +1,11 @@
+[ {
+  "uid" : "2e20cb431246c47d",
+  "name" : "User should able to register while provide valid email and account details",
+  "time" : {
+    "start" : 1515449579690,
+    "stop" : 1515449605925,
+    "duration" : 26235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,202 @@
+{
+  "uid" : "f72b61e8309fe93d",
+  "name" : "User should able to register while provide valid email and account details",
+  "fullName" : "Perform submit Meter Reading in \"British Gas\" business application.User should able to register while provide valid email and account details",
+  "historyId" : "5de55402f8d58f71c0b548f01b081672",
+  "time" : {
+    "start" : 1515452467038,
+    "stop" : 1515452489977,
+    "duration" : 22939
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "the url to perform Login",
+      "time" : {
+        "start" : 1515452467039,
+        "stop" : 1515452474285,
+        "duration" : 7246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "273c6917ca5da1a7",
+        "name" : "Screenshot",
+        "source" : "273c6917ca5da1a7.png",
+        "type" : "image/png",
+        "size" : 1422692
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  navigate to business Login page",
+      "time" : {
+        "start" : 1515452474285,
+        "stop" : 1515452483377,
+        "duration" : 9092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b1d27f790caa672",
+        "name" : "Screenshot",
+        "source" : "1b1d27f790caa672.png",
+        "type" : "image/png",
+        "size" : 1422692
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  enter the email address and password and clicks on login button",
+      "time" : {
+        "start" : 1515452483377,
+        "stop" : 1515452484276,
+        "duration" : 899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9c5cb3cc9a6b99e",
+        "name" : "Screenshot",
+        "source" : "e9c5cb3cc9a6b99e.png",
+        "type" : "image/png",
+        "size" : 225903
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User navigate to submit meter read page",
+      "time" : {
+        "start" : 1515452484276,
+        "stop" : 1515452487320,
+        "duration" : 3044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62fac063c0183c51",
+        "name" : "Screenshot",
+        "source" : "62fac063c0183c51.png",
+        "type" : "image/png",
+        "size" : 200662
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User get meter reading count, select past date and enter new meter Reading",
+      "time" : {
+        "start" : 1515452487321,
+        "stop" : 1515452489271,
+        "duration" : 1950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10c57311e28e28db",
+        "name" : "Screenshot",
+        "source" : "10c57311e28e28db.png",
+        "type" : "image/png",
+        "size" : 248597
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User click submit Button",
+      "time" : {
+        "start" : 1515452489271,
+        "stop" : 1515452489620,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe424b5f1fca27b2",
+        "name" : "Screenshot",
+        "source" : "fe424b5f1fca27b2.png",
+        "type" : "image/png",
+        "size" : 248597
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User should navigate to confirmation page.",
+      "time" : {
+        "start" : 1515452489620,
+        "stop" : 1515452489976,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bea070249f8cf0d1",
+        "name" : "Screenshot",
+        "source" : "bea070249f8cf0d1.png",
+        "type" : "image/png",
+        "size" : 248217
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should able to register while provide valid email and account details"
+  }, {
+    "name" : "package",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f72b61e8309fe93d.json",
+  "parameterValues" : [ ]
+}

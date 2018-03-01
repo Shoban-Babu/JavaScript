@@ -1,0 +1,29 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User should able to register while provide valid email and account details",
+    "uid" : "f8013a213480d12a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515451187750,
+      "stop" : 1515451209959,
+      "duration" : 22209
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "User should able to login while provide valid email and password",
+    "uid" : "e174e541821f222c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515451162132,
+      "stop" : 1515451183834,
+      "duration" : 21702
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

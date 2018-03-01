@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","Perform Login in ""British Gas"" business application.User should able to login while provide valid email and password","21508",""
+"passed","Perform submit Meter Reading in ""British Gas"" business application.User should able to register while provide valid email and account details","22939",""

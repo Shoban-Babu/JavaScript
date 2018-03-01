@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f8013a213480d12a",
+  "name" : "User should able to register while provide valid email and account details",
+  "time" : {
+    "start" : 1515451187750,
+    "stop" : 1515451209959,
+    "duration" : 22209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e174e541821f222c",
+  "name" : "User should able to login while provide valid email and password",
+  "time" : {
+    "start" : 1515451162132,
+    "stop" : 1515451183834,
+    "duration" : 21702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User should able to login while provide valid email and password",
+    "uid" : "f0db9a0e08c40aaa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515451289315,
+      "stop" : 1515451307678,
+      "duration" : 18363
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "User should able to register while provide valid email and account details",
+    "uid" : "9be5d9e8f684b23b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515451368144,
+      "stop" : 1515451395892,
+      "duration" : 27748
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Perform Login in \"British Gas\" business application",
+    "children" : [ {
+      "name" : "User should able to login while provide valid email and password",
+      "uid" : "e174e541821f222c",
+      "parentUid" : "fbe317b5e2b4d7b43661ee7d2b327e75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1515451162132,
+        "stop" : 1515451183834,
+        "duration" : 21702
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fbe317b5e2b4d7b43661ee7d2b327e75"
+  }, {
+    "name" : "Perform submit Meter Reading in \"British Gas\" business application",
+    "children" : [ {
+      "name" : "User should able to register while provide valid email and account details",
+      "uid" : "f8013a213480d12a",
+      "parentUid" : "0c876b500ef52a738f070726dada1f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1515451187750,
+        "stop" : 1515451209959,
+        "duration" : 22209
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0c876b500ef52a738f070726dada1f09"
+  } ]
+}

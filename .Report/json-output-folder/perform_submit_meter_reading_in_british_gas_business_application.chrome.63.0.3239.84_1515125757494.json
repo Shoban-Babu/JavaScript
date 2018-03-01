@@ -1,0 +1,124 @@
+[
+  {
+    "elements": [
+      {
+        "id": "perform-submit-meter-reading-in-\"british-gas\"-business-application;user-should-able-to-register-while-provide-valid-email-and-account-details",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should able to register while provide valid email and account details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the url to perform Login",
+            "result": {
+              "status": "passed",
+              "duration": 1943496
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  navigate to business Registration page",
+            "result": {
+              "status": "passed",
+              "duration": 737923
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  enter the email address and password and clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 906310
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User navigate to submit meter read page",
+            "result": {
+              "status": "passed",
+              "duration": 447102
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User get meter reading count, select past date and enter new meter Reading",
+            "result": {
+              "status": "passed",
+              "duration": 143609
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User click submit Button",
+            "result": {
+              "status": "passed",
+              "duration": 86087
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should navigate to confirmation page.",
+            "result": {
+              "status": "passed",
+              "duration": 119630
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.steps.js:56"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "perform-submit-meter-reading-in-\"british-gas\"-business-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Perform submit Meter Reading in \"British Gas\" business application",
+    "tags": [],
+    "uri": "/Users/installaccess/Downloads/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/SMR.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "63.0.3239.84"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
