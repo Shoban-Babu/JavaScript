@@ -1,0 +1,37 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "c0effe69527f658c5af968b745a6e0ad",
+    "name" : "Registration",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f172aa0a5557083d30926d1b432950b3",
+    "name" : "Payment",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a159d943c1590ec16fbbe37475a30906",
+    "name" : "SMR",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Perform submit Meter Reading in \"British Gas\" business application",
+    "children" : [ {
+      "name" : "User should able to submit Meter Reading while provide valid email and account details",
+      "uid" : "5380fd708b1adee8",
+      "parentUid" : "48a3600c0f65cfcde8377a662a6d2c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516744830938,
+        "stop" : 1516744901757,
+        "duration" : 70819
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "48a3600c0f65cfcde8377a662a6d2c48"
+  } ]
+}

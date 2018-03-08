@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5380fd708b1adee8",
+  "name" : "User should able to submit Meter Reading while provide valid email and account details",
+  "time" : {
+    "start" : 1516744830938,
+    "stop" : 1516744901757,
+    "duration" : 70819
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

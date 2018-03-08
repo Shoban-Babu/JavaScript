@@ -1,0 +1,17 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User should able to submit Meter Reading while provide valid email and account details",
+    "uid" : "5380fd708b1adee8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1516744830938,
+      "stop" : 1516744901757,
+      "duration" : 70819
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,208 @@
+{
+  "uid" : "81dbae6ef7189c24",
+  "name" : "User should navigate to Payment page and make payment with valid card details",
+  "fullName" : "Make a Payment in \"British Gas\" business application.User should navigate to Payment page and make payment with valid card details",
+  "historyId" : "8fbe8737450d7140ecf926d8a254cf8c",
+  "time" : {
+    "start" : 1516745595227,
+    "stop" : 1516747777113,
+    "duration" : 2181886
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "PaymentPage.expectValue is not a function",
+  "statusTrace" : "TypeError: PaymentPage.expectValue is not a function\n  at World.<anonymous> (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Payment.steps.js:63:30)\n  at _combinedTickCallback (internal/process/next_tick.js:131:7)\n  at Immediate._tickCallback (internal/process/next_tick.js:180:9)\n  at runCallback (timers.js:789:20)\n  at tryOnImmediate (timers.js:751:5)\n  at processImmediate [as _immediateCallback] (timers.js:722:5)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "PaymentPage.expectValue is not a function",
+    "statusTrace" : "TypeError: PaymentPage.expectValue is not a function\n  at World.<anonymous> (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Payment.steps.js:63:30)\n  at _combinedTickCallback (internal/process/next_tick.js:131:7)\n  at Immediate._tickCallback (internal/process/next_tick.js:180:9)\n  at runCallback (timers.js:789:20)\n  at tryOnImmediate (timers.js:751:5)\n  at processImmediate [as _immediateCallback] (timers.js:722:5)\n",
+    "steps" : [ {
+      "name" : "the url to perform Login",
+      "time" : {
+        "start" : 1516745595227,
+        "stop" : 1516745603374,
+        "duration" : 8147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d507e5fe11452100",
+        "name" : "Screenshot",
+        "source" : "d507e5fe11452100.png",
+        "type" : "image/png",
+        "size" : 1417947
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  navigate to business Login page",
+      "time" : {
+        "start" : 1516745603375,
+        "stop" : 1516745630999,
+        "duration" : 27624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d5bd8adc5617cb4",
+        "name" : "Screenshot",
+        "source" : "7d5bd8adc5617cb4.png",
+        "type" : "image/png",
+        "size" : 1418818
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  enter the email address and password and clicks on login button",
+      "time" : {
+        "start" : 1516745630999,
+        "stop" : 1516745631877,
+        "duration" : 878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa448818c3bc7023",
+        "name" : "Screenshot",
+        "source" : "aa448818c3bc7023.png",
+        "type" : "image/png",
+        "size" : 224643
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  clicks the make a payment link",
+      "time" : {
+        "start" : 1516745631877,
+        "stop" : 1516745667384,
+        "duration" : 35507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c8832f789158543",
+        "name" : "Screenshot",
+        "source" : "5c8832f789158543.png",
+        "type" : "image/png",
+        "size" : 152775
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User enter the payment card details and pay link displayed",
+      "time" : {
+        "start" : 1516745667384,
+        "stop" : 1516745667390,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User payment confirmation page should be displayed",
+      "time" : {
+        "start" : 1516745667390,
+        "stop" : 1516745687747,
+        "duration" : 20357
+      },
+      "status" : "failed",
+      "statusMessage" : "TypeError: PaymentPage.expectValue is not a function\n  at World.<anonymous> (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Payment.steps.js:63:30)\n  at _combinedTickCallback (internal/process/next_tick.js:131:7)\n  at Immediate._tickCallback (internal/process/next_tick.js:180:9)\n  at runCallback (timers.js:789:20)\n  at tryOnImmediate (timers.js:751:5)\n  at processImmediate [as _immediateCallback] (timers.js:722:5)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3203a78268782cd1",
+        "name" : "Screenshot",
+        "source" : "3203a78268782cd1.png",
+        "type" : "image/png",
+        "size" : 231001
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User signed out from the application.",
+      "time" : {
+        "start" : 1516745687747,
+        "stop" : 1516747777112,
+        "duration" : 2089365
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Launch URL",
+    "value" : ""
+  }, {
+    "name" : "feature",
+    "value" : "Payment"
+  }, {
+    "name" : "severity",
+    "value" : "CRITICAL"
+  }, {
+    "name" : "suite",
+    "value" : "Make a Payment in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Make a Payment in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should navigate to Payment page and make payment with valid card details"
+  }, {
+    "name" : "package",
+    "value" : "Make a Payment in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "81dbae6ef7189c24.json",
+  "parameterValues" : [ ]
+}

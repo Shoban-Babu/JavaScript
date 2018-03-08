@@ -1,0 +1,163 @@
+{
+  "uid" : "c6dcc0068ec99ece",
+  "name" : "User should able to login while provide valid email and password",
+  "fullName" : "Perform Login in \"British Gas\" business application.User should able to login while provide valid email and password",
+  "historyId" : "9da590411b97c05d4e688922bedd5483",
+  "time" : {
+    "start" : 1516744999468,
+    "stop" : 1516745023333,
+    "duration" : 23865
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "the url to perform Login",
+      "time" : {
+        "start" : 1516744999469,
+        "stop" : 1516745007405,
+        "duration" : 7936
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83f77ea2ec152287",
+        "name" : "Screenshot",
+        "source" : "83f77ea2ec152287.png",
+        "type" : "image/png",
+        "size" : 1123678
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  navigate to business Login page",
+      "time" : {
+        "start" : 1516745007405,
+        "stop" : 1516745016084,
+        "duration" : 8679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d9f4a68d07ae343",
+        "name" : "Screenshot",
+        "source" : "6d9f4a68d07ae343.png",
+        "type" : "image/png",
+        "size" : 1124470
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  enter the email address and password and clicks on login button",
+      "time" : {
+        "start" : 1516745016084,
+        "stop" : 1516745017012,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fb7d5a9d8c7a512",
+        "name" : "Screenshot",
+        "source" : "8fb7d5a9d8c7a512.png",
+        "type" : "image/png",
+        "size" : 224643
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User should navigate to Account overview page",
+      "time" : {
+        "start" : 1516745017012,
+        "stop" : 1516745020959,
+        "duration" : 3947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8771b2a134ae8fc2",
+        "name" : "Screenshot",
+        "source" : "8771b2a134ae8fc2.png",
+        "type" : "image/png",
+        "size" : 248865
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User signed out from the application.",
+      "time" : {
+        "start" : 1516745020959,
+        "stop" : 1516745023332,
+        "duration" : 2373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "459fe4b807653982",
+        "name" : "Screenshot",
+        "source" : "459fe4b807653982.png",
+        "type" : "image/png",
+        "size" : 81981
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Launch URL",
+    "value" : ""
+  }, {
+    "name" : "suite",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should able to login while provide valid email and password"
+  }, {
+    "name" : "package",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6dcc0068ec99ece.json",
+  "parameterValues" : [ ]
+}

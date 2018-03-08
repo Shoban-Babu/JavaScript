@@ -1,0 +1,226 @@
+{
+  "uid" : "5380fd708b1adee8",
+  "name" : "User should able to submit Meter Reading while provide valid email and account details",
+  "fullName" : "Perform submit Meter Reading in \"British Gas\" business application.User should able to submit Meter Reading while provide valid email and account details",
+  "historyId" : "9c29767e07b5dbc03439c14497913f7d",
+  "time" : {
+    "start" : 1516744830938,
+    "stop" : 1516744901757,
+    "duration" : 70819
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "the url to perform Login",
+      "time" : {
+        "start" : 1516744830939,
+        "stop" : 1516744838053,
+        "duration" : 7114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "467965135fcf6472",
+        "name" : "Screenshot",
+        "source" : "467965135fcf6472.png",
+        "type" : "image/png",
+        "size" : 1123920
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  navigate to business Login page",
+      "time" : {
+        "start" : 1516744838053,
+        "stop" : 1516744849902,
+        "duration" : 11849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9038c757e69434bf",
+        "name" : "Screenshot",
+        "source" : "9038c757e69434bf.png",
+        "type" : "image/png",
+        "size" : 1124923
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User  enter the email address and password and clicks on login button",
+      "time" : {
+        "start" : 1516744849903,
+        "stop" : 1516744850849,
+        "duration" : 946
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ca537779dadec63",
+        "name" : "Screenshot",
+        "source" : "5ca537779dadec63.png",
+        "type" : "image/png",
+        "size" : 224675
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User navigate to submit meter read page",
+      "time" : {
+        "start" : 1516744850849,
+        "stop" : 1516744871780,
+        "duration" : 20931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "648048215a6b7366",
+        "name" : "Screenshot",
+        "source" : "648048215a6b7366.png",
+        "type" : "image/png",
+        "size" : 199784
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User get meter reading count, select past date and enter new meter Reading",
+      "time" : {
+        "start" : 1516744871780,
+        "stop" : 1516744898006,
+        "duration" : 26226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User click submit Button",
+      "time" : {
+        "start" : 1516744898006,
+        "stop" : 1516744898410,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e390b13fee34fc3",
+        "name" : "Screenshot",
+        "source" : "6e390b13fee34fc3.png",
+        "type" : "image/png",
+        "size" : 248295
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User should navigate to confirmation page.",
+      "time" : {
+        "start" : 1516744898410,
+        "stop" : 1516744898786,
+        "duration" : 376
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff74f4a6d6d477da",
+        "name" : "Screenshot",
+        "source" : "ff74f4a6d6d477da.png",
+        "type" : "image/png",
+        "size" : 248295
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User signed out from the application.",
+      "time" : {
+        "start" : 1516744898786,
+        "stop" : 1516744901756,
+        "duration" : 2970
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a95e87eb1c2d046",
+        "name" : "Screenshot",
+        "source" : "7a95e87eb1c2d046.png",
+        "type" : "image/png",
+        "size" : 81899
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Launch URL",
+    "value" : ""
+  }, {
+    "name" : "feature",
+    "value" : "SMR"
+  }, {
+    "name" : "severity",
+    "value" : "CRITICAL"
+  }, {
+    "name" : "suite",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should able to submit Meter Reading while provide valid email and account details"
+  }, {
+    "name" : "package",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5380fd708b1adee8.json",
+  "parameterValues" : [ ]
+}

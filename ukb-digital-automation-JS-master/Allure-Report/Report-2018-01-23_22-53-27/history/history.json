@@ -1,0 +1,120 @@
+{
+  "9c29767e07b5dbc03439c14497913f7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5f95a107c5dc9b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516747933472,
+        "stop" : 1516748007660,
+        "duration" : 74188
+      }
+    } ]
+  },
+  "8fbe8737450d7140ecf926d8a254cf8c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81dbae6ef7189c24",
+      "status" : "failed",
+      "statusDetails" : "PaymentPage.expectValue is not a function",
+      "time" : {
+        "start" : 1516745595227,
+        "stop" : 1516747777113,
+        "duration" : 2181886
+      }
+    } ]
+  },
+  "b25b5cbdcbae6c763c21be4c409688c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e66c5fe0c3e901a",
+      "status" : "passed",
+      "statusDetails" : "Email validation displayed as expected",
+      "time" : {
+        "start" : 1516745561297,
+        "stop" : 1516745595222,
+        "duration" : 33925
+      }
+    } ]
+  },
+  "fc845209072376f351989d3b7bd58b1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee89d6df7bd848d0",
+      "status" : "passed",
+      "statusDetails" : "Registration confirmation displayed as expected",
+      "time" : {
+        "start" : 1516747777116,
+        "stop" : 1516747807010,
+        "duration" : 29894
+      }
+    } ]
+  },
+  "eccbaeface78a08db0bd4bf69f2ef0ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b3a82944fd8aab9",
+      "status" : "failed",
+      "statusDetails" : "",
+      "time" : {
+        "start" : 1516747807011,
+        "stop" : 1516747933469,
+        "duration" : 126458
+      }
+    } ]
+  },
+  "9da590411b97c05d4e688922bedd5483" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10fec93bd44989d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516745512164,
+        "stop" : 1516745561294,
+        "duration" : 49130
+      }
+    } ]
+  }
+}

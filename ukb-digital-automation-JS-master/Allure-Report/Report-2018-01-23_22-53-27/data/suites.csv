@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","Perform Login in ""British Gas"" business application.User should able to see error message in login while provide invalid email and password","33925",""
+"failed","Make a Payment in ""British Gas"" business application.User should navigate to Payment page and make payment with valid card details","2181886",""
+"passed","Perform submit Meter Reading in ""British Gas"" business application.User should able to submit Meter Reading while provide valid email and account details","74188",""
+"passed","Perform Registration in ""British Gas"" business application.User should able to register while provide valid email and account details","29894",""
+"failed","Perform Registration in ""British Gas"" business application.User shouldnot be able to register while provide invalid email and account details","126458",""
+"passed","Perform Login in ""British Gas"" business application.User should able to login while provide valid email and password","49130",""

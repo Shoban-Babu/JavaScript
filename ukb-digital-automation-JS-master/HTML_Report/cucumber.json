@@ -1,0 +1,92 @@
+[
+  {
+    "elements": [
+      {
+        "id": "perform-login-in-\"british-gas\"-business-application;user-should-able-to-login-while-provide-valid-email-and-password",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User should able to login while provide valid email and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the url to perform Login",
+            "result": {
+              "status": "passed",
+              "duration": 5179966950
+            },
+            "line": 4,
+            "match": {
+              "location": "git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  navigate to business Login page",
+            "result": {
+              "status": "passed",
+              "duration": 1355134
+            },
+            "line": 8,
+            "match": {
+              "location": "git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  enter the email address and password and clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 569954378
+            },
+            "line": 9,
+            "match": {
+              "location": "git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should navigate to Account overview page",
+            "result": {
+              "status": "failed",
+              "duration": 25057435302,
+              "error_message": "NoSuchElementError: No element found using locator: By(xpath, //*[@class=\"account-row__fuel-type-icon fa ukb-icon-gas\"])\n  at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/built/element.js:814:27)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\nError\n  at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n  at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n  at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n  at BrowserBot.clickAction (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/BrowserBot.js:62:19)\n  at Login.Accountoverview (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:89:12)\n  at World.<anonymous> (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:48:17)\n  at _combinedTickCallback (internal/process/next_tick.js:131:7)\n  at process._tickCallback (internal/process/next_tick.js:180:9)\n"
+            },
+            "line": 10,
+            "match": {
+              "location": "git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User signed out from the application.",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:52"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Validlogin",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "perform-login-in-\"british-gas\"-business-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Perform Login in \"British Gas\" business application",
+    "tags": [],
+    "uri": "/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Features/Login.feature"
+  }
+]

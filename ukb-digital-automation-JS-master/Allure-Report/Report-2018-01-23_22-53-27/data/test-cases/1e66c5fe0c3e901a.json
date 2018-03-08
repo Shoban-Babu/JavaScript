@@ -1,0 +1,166 @@
+{
+  "uid" : "1e66c5fe0c3e901a",
+  "name" : "User should able to see error message in login while provide invalid email and password",
+  "fullName" : "Perform Login in \"British Gas\" business application.User should able to see error message in login while provide invalid email and password",
+  "historyId" : "b25b5cbdcbae6c763c21be4c409688c7",
+  "time" : {
+    "start" : 1516745561297,
+    "stop" : 1516745595222,
+    "duration" : 33925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "Email validation displayed as expected",
+  "statusTrace" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Email validation displayed as expected",
+    "statusTrace" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+    "steps" : [ {
+      "name" : "the url to perform Login",
+      "time" : {
+        "start" : 1516745561297,
+        "stop" : 1516745564971,
+        "duration" : 3674
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25bb4ffa55628849",
+        "name" : "Screenshot",
+        "source" : "25bb4ffa55628849.png",
+        "type" : "image/png",
+        "size" : 1417947
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User  navigate to business Login page",
+      "time" : {
+        "start" : 1516745564973,
+        "stop" : 1516745593623,
+        "duration" : 28650
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0a702a32d3030c9",
+        "name" : "Screenshot",
+        "source" : "c0a702a32d3030c9.png",
+        "type" : "image/png",
+        "size" : 1418818
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User  enter the invalidemail address and password and clicks on login button",
+      "time" : {
+        "start" : 1516745593623,
+        "stop" : 1516745594515,
+        "duration" : 892
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffb9bcfed128720",
+        "name" : "Screenshot",
+        "source" : "ffb9bcfed128720.png",
+        "type" : "image/png",
+        "size" : 226722
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User will get authentication error \"Oops, it looks like something went wrong\".",
+      "time" : {
+        "start" : 1516745594515,
+        "stop" : 1516745595221,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ {
+        "name" : "Email validation displayed as expected",
+        "time" : {
+          "start" : 1516745594855,
+          "stop" : 1516745594855,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "statusMessage" : "Error: Email validation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:137:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "50fb23ba8393ef15",
+        "name" : "Screenshot",
+        "source" : "50fb23ba8393ef15.png",
+        "type" : "image/png",
+        "size" : 212273
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Launch URL",
+    "value" : ""
+  }, {
+    "name" : "suite",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should able to see error message in login while provide invalid email and password"
+  }, {
+    "name" : "package",
+    "value" : "Perform Login in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e66c5fe0c3e901a.json",
+  "parameterValues" : [ ]
+}

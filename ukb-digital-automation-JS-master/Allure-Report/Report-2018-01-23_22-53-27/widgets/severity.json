@@ -1,0 +1,61 @@
+[ {
+  "uid" : "ee89d6df7bd848d0",
+  "name" : "User should able to register while provide valid email and account details",
+  "time" : {
+    "start" : 1516747777116,
+    "stop" : 1516747807010,
+    "duration" : 29894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5f95a107c5dc9b6",
+  "name" : "User should able to submit Meter Reading while provide valid email and account details",
+  "time" : {
+    "start" : 1516747933472,
+    "stop" : 1516748007660,
+    "duration" : 74188
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "10fec93bd44989d1",
+  "name" : "User should able to login while provide valid email and password",
+  "time" : {
+    "start" : 1516745512164,
+    "stop" : 1516745561294,
+    "duration" : 49130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81dbae6ef7189c24",
+  "name" : "User should navigate to Payment page and make payment with valid card details",
+  "time" : {
+    "start" : 1516745595227,
+    "stop" : 1516747777113,
+    "duration" : 2181886
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b3a82944fd8aab9",
+  "name" : "User shouldnot be able to register while provide invalid email and account details",
+  "time" : {
+    "start" : 1516747807011,
+    "stop" : 1516747933469,
+    "duration" : 126458
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e66c5fe0c3e901a",
+  "name" : "User should able to see error message in login while provide invalid email and password",
+  "time" : {
+    "start" : 1516745561297,
+    "stop" : 1516745595222,
+    "duration" : 33925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

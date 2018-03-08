@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1516880134855" stop="1516880318673">
+	<name>Perform Login in &quot;British Gas&quot; business application</name>
+	<title>Perform Login in &quot;British Gas&quot; business application</title>
+	<test-cases>
+		<test-case start="1516880134858" stop="1516880318671" status="failed">
+			<name>User should able to login while provide valid email and password</name>
+			<title>User should able to login while provide valid email and password</title>
+			<description></description>
+			<labels>
+				<label name="Launch URL" value=""/>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="https://193.67.163.83/business/" value=""/>
+			</parameters>
+			<steps>
+				<step start="1516880134860" stop="1516880141197" status="passed">
+					<name>the url to perform Login</name>
+					<title>the url to perform Login</title>
+					<attachments>
+						<attachment title="Screenshot" source="6b643a9d-173d-491e-b6a0-4a7f79c0809c-attachment.png" type="image/png" size="1130592"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1516880141197" stop="1516880172127" status="passed">
+					<name>User  navigate to business Login page</name>
+					<title>User  navigate to business Login page</title>
+					<attachments>
+						<attachment title="Screenshot" source="48773642-cdf5-4810-8f8c-60e30043a190-attachment.png" type="image/png" size="211543"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1516880172127" stop="1516880173201" status="passed">
+					<name>User  enter the email address and password and clicks on login button</name>
+					<title>User  enter the email address and password and clicks on login button</title>
+					<attachments>
+						<attachment title="Screenshot" source="9d7d12d6-4052-4a6e-8b55-ff688948a510-attachment.png" type="image/png" size="211562"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1516880173201" stop="1516880198666" status="failed">
+					<name>User should navigate to Account overview page</name>
+					<title>User should navigate to Account overview page</title>
+					<attachments>
+						<attachment title="Screenshot" source="ecff0b3c-8994-44cf-bd9a-4aca7f0deb12-attachment.png" type="image/png" size="58822"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1516880198666" stop="1516880318670" status="skipped">
+					<name>User signed out from the application.</name>
+					<title>User signed out from the application.</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, //*[@class=&quot;account-row__fuel-type-icon fa ukb-icon-gas&quot;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, //*[@class=&quot;account-row__fuel-type-icon fa ukb-icon-gas&quot;])
+  at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/built/element.js:814:27)
+  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+  at &lt;anonymous&gt;:null:null
+  at process._tickCallback (internal/process/next_tick.js:188:7)
+Error
+  at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)
+  at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)
+  at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)
+  at BrowserBot.clickAction (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/BrowserBot.js:62:19)
+  at Login.Accountoverview (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/LoginPage.js:89:12)
+  at World.&lt;anonymous&gt; (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/cucumber_POM/features/Login.steps.js:48:17)
+  at _combinedTickCallback (internal/process/next_tick.js:131:7)
+  at process._tickCallback (internal/process/next_tick.js:180:9)
+</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

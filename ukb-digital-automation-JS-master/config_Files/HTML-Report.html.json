@@ -1,0 +1,79 @@
+[
+  {
+    "elements": [
+      {
+        "id": "perform-login-in-\"british-gas\"-business-application;user-should-able-to-see-error-message-in-login-while-provide-invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User should able to see error message in login while provide invalid email and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the url to perform Login",
+            "result": {
+              "status": "passed",
+              "duration": 12566832152
+            },
+            "line": 4,
+            "match": {
+              "location": "D:\\ukb-digital-automation-JS-master\\cucumber_POM\\features\\Login.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  navigate to business Login page",
+            "result": {
+              "status": "passed",
+              "duration": 912848
+            },
+            "line": 15,
+            "match": {
+              "location": "D:\\ukb-digital-automation-JS-master\\cucumber_POM\\features\\Login.steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User  enter the invalidemail address and password and clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 575197391
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\ukb-digital-automation-JS-master\\cucumber_POM\\features\\Login.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User will get authentication error \"Oops, it looks like something went wrong\".",
+            "result": {
+              "status": "passed",
+              "duration": 318377207
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\ukb-digital-automation-JS-master\\cucumber_POM\\features\\Login.steps.js:63"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalidlogin",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "perform-login-in-\"british-gas\"-business-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Perform Login in \"British Gas\" business application",
+    "tags": [],
+    "uri": "D:\\ukb-digital-automation-JS-master\\cucumber_POM\\features\\Features\\Login.feature"
+  }
+]

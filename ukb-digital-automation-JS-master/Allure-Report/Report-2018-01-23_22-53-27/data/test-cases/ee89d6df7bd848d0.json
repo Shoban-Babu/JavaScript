@@ -1,0 +1,191 @@
+{
+  "uid" : "ee89d6df7bd848d0",
+  "name" : "User should able to register while provide valid email and account details",
+  "fullName" : "Perform Registration in \"British Gas\" business application.User should able to register while provide valid email and account details",
+  "historyId" : "fc845209072376f351989d3b7bd58b1f",
+  "time" : {
+    "start" : 1516747777116,
+    "stop" : 1516747807010,
+    "duration" : 29894
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "Registration confirmation displayed as expected",
+  "statusTrace" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Registration confirmation displayed as expected",
+    "statusTrace" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+    "steps" : [ {
+      "name" : "User is on \"https://193.67.163.141/business/\"",
+      "time" : {
+        "start" : 1516747777116,
+        "stop" : 1516747786335,
+        "duration" : 9219
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bcf3ca111d94f05d",
+        "name" : "Screenshot",
+        "source" : "bcf3ca111d94f05d.png",
+        "type" : "image/png",
+        "size" : 1418818
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User navigates to Register page",
+      "time" : {
+        "start" : 1516747786335,
+        "stop" : 1516747790725,
+        "duration" : 4390
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b08912128cec888",
+        "name" : "Screenshot",
+        "source" : "5b08912128cec888.png",
+        "type" : "image/png",
+        "size" : 1418818
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User enter the email address and click on Next button",
+      "time" : {
+        "start" : 1516747790725,
+        "stop" : 1516747791908,
+        "duration" : 1183
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35f6f2fac9b278a6",
+        "name" : "Screenshot",
+        "source" : "35f6f2fac9b278a6.png",
+        "type" : "image/png",
+        "size" : 208006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "User give the Account details and click on Next button",
+      "time" : {
+        "start" : 1516747791908,
+        "stop" : 1516747797108,
+        "duration" : 5200
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5326fdbbcdc4a825",
+        "name" : "Screenshot",
+        "source" : "5326fdbbcdc4a825.png",
+        "type" : "image/png",
+        "size" : 191475
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "the activation email message should be displayed",
+      "time" : {
+        "start" : 1516747797108,
+        "stop" : 1516747807010,
+        "duration" : 9902
+      },
+      "status" : "passed",
+      "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+      "steps" : [ {
+        "name" : "Registration confirmation displayed as expected",
+        "time" : {
+          "start" : 1516747806643,
+          "stop" : 1516747806643,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "statusMessage" : "Error: Registration confirmation displayed as expected\n  at ReporterOptions.reportPass (/Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/helper/ReporterOptions.js:30:37)\n  at /Users/installaccess/Documents/offshore copy/To git/Protractor_Framework_Updated_18_12_Sauce/jasmine_POM/pages/RegistrationPage.js:89:24\n  at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/built/element.js:804:32)\n  at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n  at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n  at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n  at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n  at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n  at <anonymous>:null:null\n  at process._tickCallback (internal/process/next_tick.js:188:7)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "df2944b4c5ecaabc",
+        "name" : "Screenshot",
+        "source" : "df2944b4c5ecaabc.png",
+        "type" : "image/png",
+        "size" : 285290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "severity",
+    "value" : "1"
+  }, {
+    "name" : "suite",
+    "value" : "Perform Registration in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform Registration in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "User should able to register while provide valid email and account details"
+  }, {
+    "name" : "package",
+    "value" : "Perform Registration in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee89d6df7bd848d0.json",
+  "parameterValues" : [ ]
+}

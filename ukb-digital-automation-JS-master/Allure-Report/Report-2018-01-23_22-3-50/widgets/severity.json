@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1d801f41b075cb51",
+  "name" : "User should able to see error message in login while provide invalid email and password",
+  "time" : {
+    "start" : 1516745023336,
+    "stop" : 1516745030781,
+    "duration" : 7445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6dcc0068ec99ece",
+  "name" : "User should able to login while provide valid email and password",
+  "time" : {
+    "start" : 1516744999468,
+    "stop" : 1516745023333,
+    "duration" : 23865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

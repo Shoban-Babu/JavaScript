@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "SMR",
+    "children" : [ {
+      "name" : "User should able to submit Meter Reading while provide valid email and account details",
+      "uid" : "5380fd708b1adee8",
+      "parentUid" : "a159d943c1590ec16fbbe37475a30906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516744830938,
+        "stop" : 1516744901757,
+        "duration" : 70819
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a159d943c1590ec16fbbe37475a30906"
+  } ]
+}

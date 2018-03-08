@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Perform Login in \"British Gas\" business application",
+    "children" : [ {
+      "name" : "User should able to login while provide valid email and password",
+      "uid" : "c6dcc0068ec99ece",
+      "parentUid" : "306551f9a4b8b828256a368b525d8593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516744999468,
+        "stop" : 1516745023333,
+        "duration" : 23865
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "User should able to see error message in login while provide invalid email and password",
+      "uid" : "1d801f41b075cb51",
+      "parentUid" : "306551f9a4b8b828256a368b525d8593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1516745023336,
+        "stop" : 1516745030781,
+        "duration" : 7445
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "306551f9a4b8b828256a368b525d8593"
+  } ]
+}
