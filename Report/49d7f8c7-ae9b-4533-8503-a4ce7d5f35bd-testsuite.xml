@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1520591577807" stop="1520591586532">
+	<name>Perform submit Meter Reading in &quot;British Gas&quot; business application</name>
+	<title>Perform submit Meter Reading in &quot;British Gas&quot; business application</title>
+	<test-cases>
+		<test-case start="1520591577810" stop="1520591586531" status="passed">
+			<name>To validate that if the customer is getting proper error message when giving invalid post code</name>
+			<title>To validate that if the customer is getting proper error message when giving invalid post code</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1520591577812" stop="1520591581830" status="passed">
+					<name>the url to perform ASMR</name>
+					<title>the url to perform ASMR</title>
+					<attachments>
+						<attachment title="Screenshot" source="f220fbf8-cb67-40c7-b28c-d923dd719f14-attachment.png" type="image/png" size="171745"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1520591581830" stop="1520591584856" status="passed">
+					<name>user should navigate to the SMR page</name>
+					<title>user should navigate to the SMR page</title>
+					<attachments>
+						<attachment title="Screenshot" source="31b734d2-405e-4f30-a92f-3e3d2d511709-attachment.png" type="image/png" size="235088"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1520591584856" stop="1520591586005" status="passed">
+					<name>user should enter the account Number,postcode,email address for &quot;Invalid_Postcode&quot;</name>
+					<title>user should enter the account Number,postcode,email address for &quot;Invalid_Postcode&quot;</title>
+					<attachments>
+						<attachment title="Screenshot" source="f9833088-649f-4501-944b-dd71025cc701-attachment.png" type="image/png" size="259507"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1520591586006" stop="1520591586530" status="passed">
+					<name>user should verify &quot;The postcode you&apos;ve entered for this account doesn&apos;t match our records. It should match the postcode on your bill.&quot; error message for &quot;Invalid_Postcode&quot;</name>
+					<title>user should verify &quot;The postcode you&apos;ve entered for this account doesn&apos;t match our records. It should match the postcode on your bill.&quot; error message for &quot;Invalid_Postcode&quot;</title>
+					<attachments>
+						<attachment title="Screenshot" source="7c81c4e3-6baf-4d68-a181-d8d4833c5fde-attachment.png" type="image/png" size="256603"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

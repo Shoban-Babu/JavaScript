@@ -1,0 +1,11 @@
+[ {
+  "uid" : "190fafab0cdaab0e",
+  "name" : "To validate that if the customer is getting proper error message when giving invalid post code",
+  "time" : {
+    "start" : 1520591577810,
+    "stop" : 1520591586531,
+    "duration" : 8721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

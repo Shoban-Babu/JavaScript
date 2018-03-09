@@ -90,39 +90,39 @@
     var a = arg;
     switch (a)
     {
-    case "Invalid_Postcode":row = 2;that.ValuesEnterintoFields(row);break;
+    case "Invalid_Postcode":row = 2;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Closed_Account":row = 3;that.ValuesEnterintoFields(row);break;
+    case "Closed_Account":row = 3;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Collective_Account":row = 4;that.ValuesEnterintoFields(row);break;
+    case "Collective_Account":row = 4;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Child_Account":row = 5;that.ValuesEnterintoFields(row);break;
+    case "Child_Account":row = 5;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "More_Than_Three_Meters":row = 6;that.ValuesEnterintoFields(row);break;
+    case "More_Than_Three_Meters":row = 6;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Client_Side":row = 7;that.ValuesEnterintoFields(row);break;
+    case "Client_Side":row = 7;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "In-progress_Account":row = 8;that.ValuesEnterintoFields(row);break;
+    case "In-progress_Account":row = 8;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Display_Accounts":row = 9;that.ValuesEnterintoFields(row);break;
+    case "Display_Accounts":row = 9;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "SubmitMeterRead_Gas":row = 10;that.ValuesEnterintoFields(row);break;
+    case "SubmitMeterRead_Gas":row = 10;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "SubmitMeterRead_Electricity":row = 11;that.ValuesEnterintoFields(row);break;
+    case "SubmitMeterRead_Electricity":row = 11;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "SubmitMeterRead_MultiMeter":row = 12;that.ValuesEnterintoFields(row);break;
+    case "SubmitMeterRead_MultiMeter":row = 12;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "SubmitMeterRead_Gas_implusible":row = 13;that.ValuesEnterintoFields(row);break;
+    case "SubmitMeterRead_Gas_implusible":row = 13;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "SubmitMeterRead_Electricity_MultiMeter_Implusible":row = 14;that.ValuesEnterintoFields(row);break;
+    case "SubmitMeterRead_Electricity_MultiMeter_Implusible":row = 14;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Reminder_Electricity":row = 15;that.ValuesEnterintoFields(row);break;
+    case "Reminder_Electricity":row = 15;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Reminder_Gas_Multi_Meter":row = 16;that.ValuesEnterintoFields(row);break;
+    case "Reminder_Gas_Multi_Meter":row = 16;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Reminder_Already_Submitted":row = 17;that.ValuesEnterintoFields(row);break;
+    case "Reminder_Already_Submitted":row = 17;that.ValuesEnterintoFieldsintoFields(row);break;
 
-    case "Meter_Read_Submitted_On_The_Day":row = 18;that.ValuesEnterintoFields(row);break;
+    case "Meter_Read_Submitted_On_The_Day":row = 18;that.ValuesEnterintoFieldsintoFields(row);break;
     }
     };
 
@@ -135,10 +135,10 @@
     var column = ["C","D"];
     var array1 = [];
     var array2 = [accno,sitepostcode];
-    fueltype = bot.excelread("../ASMR_Inputs.xlsx","Sheet1",row,"D");
+    fueltype = bot.excelread("./ASMR_Inputs.xlsx","Sheet1",row,"D");
     this.EmialSplitupFuction(EmailID,row);
     for(var i=0;i<column.length;i++){
-      var val = bot.excelread("../ASMR_Inputs.xlsx","Sheet1",row,column[i]);
+      var val = bot.excelread("./ASMR_Inputs.xlsx","Sheet1",row,column[i]);
       array1.push(val);
     }
     bot.enterText(email,Nemail);
@@ -151,9 +151,9 @@
     var column = ["B","C","D"];
     var array1 = [];
     var array2 = [email,accno,sitepostcode];
-    fueltype = bot.excelread("../ASMR_Inputs.xlsx","Sheet1",row,"E");
+    fueltype = bot.excelread("./ASMR_Inputs.xlsx","Sheet1",row,"E");
     for(var i=0;i<column.length;i++){
-      var val = bot.excelread("../ASMR_Inputs.xlsx","Sheet1",row,column[i]);
+      var val = bot.excelread("./ASMR_Inputs.xlsx","Sheet1",row,column[i]);
       array1.push(val);
     }
     for(var i=0;i<array2.length;i++){
@@ -166,7 +166,7 @@
     /*Email ID split Up*/
     this.EmialSplitupFuction = function(EmailID,row)
     {
-    EmailID = bot.excelread("../ASMR_Inputs.xlsx","Sheet1",row,"B");
+    EmailID = bot.excelread("./ASMR_Inputs.xlsx","Sheet1",row,"B");
     var temp = EmailID.split("@");
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

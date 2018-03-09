@@ -2,14 +2,15 @@ Feature: Perform submit Meter Reading in "British Gas" business application
 
 @ASMRPostCodeInvalid
 
+
+
 Scenario: To validate that if the customer is getting proper error message when giving invalid post code
 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "Invalid_Postcode"
-Then user should verify "The postcode you've entered for this account doesn't match our records. It should match the
+Then user should verify "The postcode you've entered for this account doesn't match our records. It should match the postcode on your bill." error message for "Invalid_Postcode"
 
-postcode on your bill." error message for "Invalid_Postcode"
 
 @ASMR_Closed_Account_Error_message
 
@@ -18,9 +19,7 @@ Scenario: To validate that if the customer is getting proper error message when 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "Closed_Account"
-Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for
-
-"Closed_Account"
+Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for "Closed_Account"
 
 @ASMR_Collective_Error_message
 
@@ -29,9 +28,7 @@ Scenario: To validate that if the customer is getting proper error message when 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "Collective_Account"
-Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for
-
-"Collective_Account"
+Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for "Collective_Account"
 
 @ASMR_Child_Account_Error_message
 
@@ -40,9 +37,7 @@ Scenario: To validate that if the customer is getting proper error message when 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "Child_Account"
-Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for
-
-"Child_Account"
+Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for "Child_Account"
 
 @ASMR_Error_message_for_More_than_three_meters
 
@@ -51,15 +46,11 @@ Scenario: To validate that if the customer is getting proper error message when 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "More_Than_Three_Meters"
-Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for
-
-"More_Than_Three_Meters"
+Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for "More_Than_Three_Meters"
 
 @ASMR_Invalid_post_Code_Client_Side
 
-Scenario: To validate that if the customer is getting proper client side error message when giving in proper error
-
-message
+Scenario: To validate that if the customer is getting proper client side error message when giving in proper error message
 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
@@ -68,16 +59,12 @@ Then user should verify UI error message with invalid details
 
 @ASMR_Invalid_post_Code_In_progress_account
 
-Scenario: To validate that if the customer is getting proper client side error message when giving in proper error
-
-message
+Scenario: To validate that if the customer is getting proper client side error message when giving in proper error message
 
 Given the url to perform ASMR
 Given user should navigate to the SMR page
 When user should enter the account Number,postcode,email address for "In-progress_Account"
-Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for
-
-"In-progress_Account"
+Then user should verify "We can't accept your meter readings online. Please call us on 0800 316 2010." error message for "In-progress_Account"
 
 @ASMR_Displaying_meter_and_account_details_for_identified_customer
 

@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Perform submit Meter Reading in \"British Gas\" business application",
+    "children" : [ {
+      "name" : "To validate that if the customer is getting proper error message when giving invalid post code",
+      "uid" : "190fafab0cdaab0e",
+      "parentUid" : "0c876b500ef52a738f070726dada1f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1520591577810,
+        "stop" : 1520591586531,
+        "duration" : 8721
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0c876b500ef52a738f070726dada1f09"
+  } ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "190fafab0cdaab0e",
+  "name" : "To validate that if the customer is getting proper error message when giving invalid post code",
+  "fullName" : "Perform submit Meter Reading in \"British Gas\" business application.To validate that if the customer is getting proper error message when giving invalid post code",
+  "historyId" : "fe6fe1262ee7263a8ce4c2e68b680168",
+  "time" : {
+    "start" : 1520591577810,
+    "stop" : 1520591586531,
+    "duration" : 8721
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "the url to perform ASMR",
+      "time" : {
+        "start" : 1520591577812,
+        "stop" : 1520591581830,
+        "duration" : 4018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8f39d049d444b24",
+        "name" : "Screenshot",
+        "source" : "f8f39d049d444b24.png",
+        "type" : "image/png",
+        "size" : 171745
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "user should navigate to the SMR page",
+      "time" : {
+        "start" : 1520591581830,
+        "stop" : 1520591584856,
+        "duration" : 3026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a7097fd7a8088ed",
+        "name" : "Screenshot",
+        "source" : "5a7097fd7a8088ed.png",
+        "type" : "image/png",
+        "size" : 235088
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "user should enter the account Number,postcode,email address for \"Invalid_Postcode\"",
+      "time" : {
+        "start" : 1520591584856,
+        "stop" : 1520591586005,
+        "duration" : 1149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97be0a39faf6f1eb",
+        "name" : "Screenshot",
+        "source" : "97be0a39faf6f1eb.png",
+        "type" : "image/png",
+        "size" : 259507
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "user should verify \"The postcode you've entered for this account doesn't match our records. It should match the postcode on your bill.\" error message for \"Invalid_Postcode\"",
+      "time" : {
+        "start" : 1520591586006,
+        "stop" : 1520591586530,
+        "duration" : 524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8df5e93720b28a8",
+        "name" : "Screenshot",
+        "source" : "c8df5e93720b28a8.png",
+        "type" : "image/png",
+        "size" : 256603
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testClass",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "testMethod",
+    "value" : "To validate that if the customer is getting proper error message when giving invalid post code"
+  }, {
+    "name" : "package",
+    "value" : "Perform submit Meter Reading in \"British Gas\" business application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "190fafab0cdaab0e.json",
+  "parameterValues" : [ ]
+}

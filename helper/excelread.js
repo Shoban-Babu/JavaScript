@@ -9,7 +9,7 @@ var ExcelFunctions = function() {
     /* To be used to get browser information */
     this.getSpecs = function () {
         try {
-            var workbook = XLSX.readFile('../RunManager.xlsx');
+            var workbook = XLSX.readFile('./RunManager.xlsx');
             var worksheet = workbook.Sheets['DATA'];
             var browser = 'chrome';
             var testCaseName = '';

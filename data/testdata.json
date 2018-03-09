@@ -2,9 +2,9 @@
 {
     "UKB_url":"https://193.67.163.63/business/",
     "UKB83_url":"https://193.67.163.83/business/",
-    "UKB141_url":"https://10.224.70.50/business/",
+    "UKB141_url":"https://193.67.163.50/business/",
     "UKB41_url":"https://193.67.163.41/business/",
-    "UKB111_url_ASMR":"https://10.224.70.111/business/meterread/submit-meter-read",
+    "UKB111_url_ASMR":"https://193.67.163.141/business/meterread/submit-meter-read",
     "calculator_url":"http://juliemr.github.io/protractor-demo/",
     "value1":"1",
     "value2":"2",
